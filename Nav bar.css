@@ -1,0 +1,41 @@
+/* Complete */
+
+* {
+    margin: 0px;
+}
+
+nav {
+    margin: 0px;
+    padding: 20px;
+    background-color: #000000e6;
+    position: sticky;
+    margin-right: 0px;
+    border-radius: 0px 0px 1em 1em;
+}
+
+a:first-child {
+    font-size: larger;
+    border: none;
+    color: aqua;
+    margin-right: 630px;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: aliceblue;
+    border: 1px solid cyan;
+    border-radius: 100px;
+    padding: 5px 15px;
+    margin-left: 5px;
+}
+
+a:hover {
+    background-color:antiquewhite;
+    color: black;
+}
+
+a:first-child:hover {
+    background-color: #00000000;
+    color:antiquewhite;
+}
