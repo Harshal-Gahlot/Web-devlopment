@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
+            height: 100svh;
+        }
+        article {
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+            height: 250px;
+            
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </main>
+    
+    <script>
+        function C() {
+            console.log(Math.round(Math.random() * 100));
+            return `${Math.round(Math.random() * 100)}`;
+        };
+
+        document.querySelectorAll(".box").forEach(e => {
+                e.style.backgroundColor = `rgb(${C()}%, ${C()}%, ${C()}%)`;
+        });
+    </script>
+</body>
+</html>
