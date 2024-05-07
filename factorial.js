@@ -10,7 +10,7 @@ console.log(result)
 
 let num = 5
 let arr = []
-// let arr = Array.from(Array(number).keys())
+// let arr = Array.from(Array(num).keys())
 for (let i=1; i <= num; i++) {
     arr.push(i)
 }
